@@ -2,7 +2,7 @@ import { Api } from '@/types'
 
 const api: Api = {
   name: 'ImgBB',
-  transit: false,
+  transit: true,
   url: 'https://zh-cn.imgbb.com/json',
   field_name: 'source',
   additional_data: {
